@@ -87,6 +87,9 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  @media screen and (max-width: 479px) {
+    font-size: 30px;
+  }
 }
 .menu__mail-link {
   font-weight: 500;
@@ -109,6 +112,9 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+  }
 }
 .menu__socials-item:not(:last-child)::after {
   content: "";
